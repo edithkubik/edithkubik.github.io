@@ -359,7 +359,7 @@ footer a:hover {
   gap: 3rem !important;
   align-items: center !important;
   margin: 3rem 0 3rem calc(-50vw + 50%) !important;
-  padding: 2rem 2rem 2rem calc(50vw - 50% + 2rem) !important;
+  padding: 2rem calc(50vw - 50% + 2rem) !important;
   border-radius: 0 !important;
   width: 100vw !important;
 }
