@@ -358,10 +358,10 @@ footer a:hover {
   grid-template-columns: 1fr 1fr !important;
   gap: 3rem !important;
   align-items: center !important;
-  margin: 3rem 0 !important;
-  padding: 2rem !important;
-  border-radius: 4px !important;
-  width: 100% !important;
+  margin: 3rem 0 3rem calc(-50vw + 50%) !important;
+  padding: 2rem 2rem 2rem calc(50vw - 50% + 2rem) !important;
+  border-radius: 0 !important;
+  width: 100vw !important;
 }
 
 .outreach-block h3 {
