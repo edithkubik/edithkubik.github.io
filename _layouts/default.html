@@ -12,7 +12,10 @@
     <nav>
       <ul>
         {% if site.logo %}<img src="{{ site.logo | relative_url }}" alt="Logo" class="logo">{% else %}<div class="logo"></div>{% endif %}
-        <li><strong>{{ site.title }}</strong></li>
+        <li>
+          <strong>{{ site.title }}</strong><br>
+          <span class="subtitle">{{ site.subtitle }}</span>
+        </li>
       </ul>
       <ul>
         {% assign items = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
