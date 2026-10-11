@@ -24,6 +24,21 @@ nav_order: 5
 
 Edith received her Ph.D. in Planetary Science from [University] and has conducted research at [institutions]. She is committed to advancing our understanding of planetary processes while mentoring the next generation of scientists through both research and outreach activities.
 
+## Former Members
+
+<div class="grid grid-3">
+{% for person in site.data.alumni %}
+  <div class="person-card">
+    <img src="{{ person.image }}" alt="{{ person.name }}">
+    <h3>{{ person.name }}</h3>
+    <p class="role">{{ person.role }}</p>
+    <p>{{ person.bio }}</p>
+    {% if person.email %}<p><a href="mailto:{{ person.email }}">Contact</a></p>{% endif %}
+  </div>
+{% endfor %}
+</div>
+
+
 ### Contact & Resources
 
 - **Email**: edith.kubik@proton.me
