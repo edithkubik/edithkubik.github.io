@@ -191,15 +191,15 @@ main p {
 /* Project Card */
 .project-card {
   background: #fff9f7 !important;
-  border: 2px solid #FF9B8A !important;
+  border: 2px solid #FFDCD6 !important;
   border-radius: 4px;
   overflow: hidden;
   transition: all 0.2s ease;
 }
 
 .project-card:hover {
-  border-color: #FFDCD6 !important;
-  box-shadow: 0 4px 12px rgba(168, 200, 184, 0.15);
+  border-color: #FD5437 !important;
+  box-shadow: 0 4px 12px rgba(253, 84, 55, 0.2);
 }
 
 .project-card img {
@@ -379,6 +379,19 @@ footer a:hover {
 }
 
 .outreach-block-normal .outreach-image {
+  order: 2 !important;
+}
+
+.outreach-block:nth-child(odd) {
+  background-color: #57A1A0 !important;
+  color: white !important;
+}
+
+.outreach-block:nth-child(odd) .outreach-image {
+  order: 1 !important;
+}
+
+.outreach-block:nth-child(odd) .outreach-text {
   order: 2 !important;
 }
 
