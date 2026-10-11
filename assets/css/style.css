@@ -2,14 +2,15 @@
 
 :root {
   --color-base: #faf8f6 !important;
-  --color-primary: #FFDCD6 !important;
-  --color-primary-dark: #E8987E !important;
-  --color-secondary: #D4A8A0 !important;
+  --color-peach-light: #FFDCD6 !important;
+  --color-peach-dark: #FF9B8A !important;
+  --color-teal: #57A1A0 !important;
+  --color-raspberry: #D0837E !important;
   --color-divider: #e8e0d8 !important;
   --color-text: #2d3436 !important;
   --color-light-text: #5a5f5f !important;
-  --form-element-valid-border-color: #FFDCD6 !important;
-  --form-element-invalid-border-color: #E8987E !important;
+  --form-element-valid-border-color: #57A1A0 !important;
+  --form-element-invalid-border-color: #FF9B8A !important;
   --muted-color: #5a5f5f !important;
   --muted-border-color: #e8e0d8 !important;
 }
@@ -54,25 +55,25 @@ a {
 }
 
 a:hover {
-  color: #E8987E !important;
-  border-bottom-color: #E8987E !important;
+  color: #FF9B8A !important;
+  border-bottom-color: #FF9B8A !important;
 }
 
 button, [type="button"], [type="submit"], [type="reset"] {
-  background-color: #FFDCD6 !important;
-  border-color: #FFDCD6 !important;
+  background-color: #57A1A0 !important;
+  border-color: #57A1A0 !important;
   color: white !important;
 }
 
 button:hover, [type="button"]:hover, [type="submit"]:hover, [type="reset"]:hover {
-  background-color: #E8987E !important;
-  border-color: #E8987E !important;
+  background-color: #FF9B8A !important;
+  border-color: #FF9B8A !important;
 }
 
 /* Header Layout */
 header {
   background-color: #faf8f6 !important;
-  border-bottom: 2px solid #FFDCD6 !important;
+  border-bottom: 2px solid #57A1A0 !important;
   padding: 1.5rem 0;
   margin-bottom: 3rem;
   position: sticky;
@@ -181,7 +182,7 @@ main p {
 /* Project Card */
 .project-card {
   background: #fff9f7 !important;
-  border: 2px solid #E8987E !important;
+  border: 2px solid #FF9B8A !important;
   border-radius: 4px;
   overflow: hidden;
   transition: all 0.2s ease;
@@ -234,7 +235,7 @@ main p {
 }
 
 .person-card:hover {
-  border-color: #E8987E !important;
+  border-color: #FF9B8A !important;
   box-shadow: 0 4px 12px rgba(200, 184, 216, 0.15);
 }
 
@@ -281,7 +282,7 @@ main p {
   gap: 2rem;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 2px solid #E8987E;
+  border-bottom: 2px solid #FF9B8A;
 }
 
 .news-item:last-child {
@@ -319,7 +320,7 @@ main p {
 footer {
   margin-top: 4rem;
   padding-top: 2rem;
-  border-top: 2px solid #FFDCD6 !important;
+  border-top: 2px solid #57A1A0 !important;
   font-size: 0.85rem;
   color: #000 !important;
   text-align: center;
@@ -338,8 +339,8 @@ footer a {
 }
 
 footer a:hover {
-  color: #E8987E !important;
-  border-bottom-color: #E8987E !important;
+  color: #FF9B8A !important;
+  border-bottom-color: #FF9B8A !important;
 }
 
 /* Outreach Blocks */
@@ -371,7 +372,7 @@ footer a:hover {
 }
 
 .outreach-block-alternate {
-  background-color: #E8987E !important;
+  background-color: #57A1A0 !important;
   color: white !important;
 }
 
