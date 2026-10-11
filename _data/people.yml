@@ -1,15 +1,25 @@
 - name: Dr. Edith Kubik
   role: Principal Investigator
   image: /assets/images/edith_photo.jpg
-  bio: Director of PEARL Lab, specializing in planetary materials and isotopic analysis.
-  email: edith.kubik@proton.me
+  bio: Group leader of PEARL Lab, specialising in planetary formation.
+  email: edith.kubik@ucd.ie
 
-- name: Lab Member One
-  role: Postdoctoral Researcher
+- name: Lisa Vincent
+  role: PhD student
   image: /assets/images/placeholder_geode.jpeg
-  bio: Research focus on early solar system dynamics.
+  bio: 
 
-- name: Lab Member Two
-  role: Graduate Student
+- name: David Farrelly
+  role: MSc student
   image: /assets/images/placeholder_geode.jpeg
-  bio: Investigating meteorite geochemistry and accretion processes.
+  bio: 
+
+- name: Sofie Van Driel
+  role: PhD student
+  image: /assets/images/placeholder_geode.jpeg
+  bio: 
+
+- name: Dapeng Zhu
+  role: PhD student
+  image: /assets/images/placeholder_geode.jpeg
+  bio: 
