@@ -342,6 +342,80 @@ footer a:hover {
   border-bottom-color: #c8b8d8 !important;
 }
 
+/* Outreach Blocks */
+.outreach-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin: 3rem 0;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+.outreach-block h3 {
+  margin-top: 0;
+}
+
+.outreach-block-normal {
+  background-color: #faf8f6 !important;
+  color: #000 !important;
+}
+
+.outreach-block-normal .outreach-text {
+  order: 1;
+}
+
+.outreach-block-normal .outreach-image {
+  order: 2;
+}
+
+.outreach-block-alternate {
+  background-color: #a8c8b8 !important;
+  color: white !important;
+}
+
+.outreach-block-alternate .outreach-image {
+  order: 1;
+}
+
+.outreach-block-alternate .outreach-text {
+  order: 2;
+}
+
+.outreach-block-alternate h3,
+.outreach-block-alternate h4,
+.outreach-block-alternate h5,
+.outreach-block-alternate h6 {
+  color: white !important;
+}
+
+.outreach-block-alternate p,
+.outreach-block-alternate li {
+  color: white !important;
+}
+
+.outreach-block-alternate a {
+  color: white !important;
+  border-bottom-color: white !important;
+}
+
+.outreach-block-alternate a:hover {
+  color: #faf8f6 !important;
+  border-bottom-color: #faf8f6 !important;
+}
+
+.outreach-image img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  background-color: #e8e0d8;
+}
+
+.outreach-block-alternate .outreach-image img {
+  border: 3px solid white;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   header nav {
@@ -362,5 +436,18 @@ footer a:hover {
 
   .grid-2, .grid-3, .grid-4 {
     grid-template-columns: 1fr;
+  }
+
+  .outreach-block {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .outreach-block-normal .outreach-text,
+  .outreach-block-normal .outreach-image,
+  .outreach-block-alternate .outreach-image,
+  .outreach-block-alternate .outreach-text {
+    order: unset;
   }
 }
