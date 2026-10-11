@@ -354,36 +354,38 @@ footer a:hover {
 
 /* Outreach Blocks */
 .outreach-block {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  align-items: center;
-  margin: 3rem 0;
-  padding: 2rem;
-  border-radius: 4px;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 3rem !important;
+  align-items: center !important;
+  margin: 3rem 0 !important;
+  padding: 2rem !important;
+  border-radius: 4px !important;
+  width: 100% !important;
 }
 
 .outreach-block h3 {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 .outreach-block-normal {
-  background-color: #faf8f6 !important;
+  background-color: #ffffff !important;
   color: #000 !important;
+  border: 1px solid #e8e0d8 !important;
 }
 
 .outreach-block-normal .outreach-text {
-  order: 1;
+  order: 1 !important;
 }
 
 .outreach-block-normal .outreach-image {
-  order: 2;
+  order: 2 !important;
 }
 
 .outreach-block-alternate {
   background-color: #57A1A0 !important;
   color: white !important;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr !important;
 }
 
 .outreach-block-alternate .outreach-image {
