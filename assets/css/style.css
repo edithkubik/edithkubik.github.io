@@ -73,7 +73,7 @@ button:hover, [type="button"]:hover, [type="submit"]:hover, [type="reset"]:hover
 /* Header Layout */
 header {
   background-color: #faf8f6 !important;
-  border-bottom: 2px solid #57A1A0 !important;
+  border-bottom: 2px solid #FF9B8A !important;
   padding: 1.5rem 0;
   margin-bottom: 3rem;
   position: sticky;
