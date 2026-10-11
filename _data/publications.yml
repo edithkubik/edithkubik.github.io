@@ -7,9 +7,9 @@
   - title: Core formation resolves Earth's siderophile excess without a late veneer
     authors: I. Blanchard, J. Siebert, L. Calvo, S. Lobanov, C. Pinchon, E. Kubik, M. Wilke, A. Schreiber, V. Bonino, F. Guyot, S. Petitgirard, P. Parisiades, N. Guignot
     venue: Science Advances
-    link: https://www.science.org/doi/10.1126/sciadv.aef0411
-
-    - title: In-situ Sn isotopic analysis in cassiterite using nano-second LA-MC-ICP-MS/MS and a synthesized reference standard material
+    link: https://www.science.org/doi/10.1126/sciadv.aef0411  
+    
+  - title: In-situ Sn isotopic analysis in cassiterite using nano-second LA-MC-ICP-MS/MS and a synthesized reference standard material
     authors: D. Zhu, E. Kubik, A. Bouvier
     venue: Journal of Analytical Atomic Spectrometry
     link: https://doi.org/10.1039/D6JA00195E
@@ -24,26 +24,42 @@
     venue: Science Advances
     link: https://www.science.org/doi/10.1126/sciadv.ady8018
 
-  - title: Paper Title Two
-    authors: Kubik, E., Author, B.
-    venue: Another Journal
-    link: https://doi.org/...
-
-
-
 2025:
-  - title: Paper Title One
-    authors: Kubik, E., Author, A.
-    venue: Journal Name
-    link: https://doi.org/...
-
-  - title: Paper Title Two
-    authors: Kubik, E., Author, B.
-    venue: Another Journal
-    link: https://doi.org/...
+  - title: Earth’s deep magma ocean never reached sulfide saturation
+    authors: I. Blanchard, J. Siebert, E. Kubik, A. Minchenkova, L. Calvo, N. Wehr
+    venue: Geochemical Perspectives Letters
+    link: https://doi.org/10.7185/geochemlet.2506
 
 2024:
+  - title: Tin isotope heterogeneity and baseline of the upper continental crust
+    authors: J.X. She, W. Li, E. Kubik, F. Moynier, X.-L. Luo, J. Mu, S. An, C.-Z. Wu, Z. Hu, J. Ji
+    venue: Geochimica et Cosmochimica Acta
+    link: https://doi.org/10.1016/j.gca.2024.07.029
+    
+  - title: N sequestration in the core at megabar pressure and implications for terrestrial accretion
+    authors: D. Huang, J. Siebert, P.A. Sossi, E. Kubik, G. Avice, M. Murakami
+    venue: Geochimica et Cosmochimica Acta
+    link: https://doi.org/10.1016/j.gca.2024.05.010
+    
+  - title: A baseline for the Sn isotopic composition of the upper continental crust
+    authors: E. Kubik, F. Moynier, J.X. She, R. Rudnick
+    venue: Geochemical Perspectives Letters
+    link: https://doi.org/10.7185/geochemlet.2422
+
+2023:
+  - title: Stable Sn isotope signatures of Mid-ocean ridge basalts
+    authors: J.X. She, E. Kubik, W. Li*, F. Moynier
+    venue: Chemical Geology
+    link: https://doi.org/10.1016/j.chemgeo.2023.121347
+
+2022:
+  - title: Earlier Paper
+    authors: Kubik, E., Collaborator, C.
+    venue: Science Journal
+    link: https://doi.org/10.1016/j.gca.2022.09.043
+    
   - title: Earlier Paper
     authors: Kubik, E., Collaborator, C.
     venue: Science Journal
     link: https://doi.org/...
+
