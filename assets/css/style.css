@@ -49,14 +49,14 @@ h2 { font-size: 1.8rem; }
 h3 { font-size: 1.4rem; }
 
 a {
-  color: #FFDCD6 !important;
+  color: #FF9B8A !important;
   text-decoration: none;
-  border-bottom: 2px solid #FFDCD6 !important;
+  border-bottom: 2px solid #FF9B8A !important;
 }
 
 a:hover {
-  color: #FF9B8A !important;
-  border-bottom-color: #FF9B8A !important;
+  color: #FD5437 !important;
+  border-bottom-color: #FD5437 !important;
 }
 
 button, [type="button"], [type="submit"], [type="reset"] {
