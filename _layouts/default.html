@@ -13,8 +13,7 @@
       <ul>
         {% if site.logo %}<img src="{{ site.logo | relative_url }}" alt="Logo" class="logo">{% else %}<div class="logo"></div>{% endif %}
         <li>
-          <strong>{{ site.title }}</strong><br>
-          <span class="subtitle">{{ site.subtitle }}</span>
+          <strong>{{ site.title }}</strong> <span class="separator">·</span> <span class="subtitle">{{ site.subtitle }}</span>
         </li>
       </ul>
       <ul>

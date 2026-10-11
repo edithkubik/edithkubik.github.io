@@ -3,6 +3,6 @@ subtitle: Planetary Evolution & Accretion Research Laboratory
 baseurl: ""   # leave "" if the repo is <username>.github.io
 exclude: [README.md]
 
-logo: /assets/images/pearl-logo.png
+logo: /assets/images/placeholder_geode.jpeg
 lab_email: edith.kubik@proton.me
 lab_affiliation: Department of Earth Sciences

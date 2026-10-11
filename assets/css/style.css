@@ -108,20 +108,29 @@ header nav ul:first-child {
   gap: 0.5rem;
 }
 
+header nav ul:first-child li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
 header nav ul:first-child li strong {
   font-size: 1.2rem;
   font-weight: 700;
   color: #000 !important;
-  display: block;
+  display: inline;
+}
+
+header nav ul:first-child li .separator {
+  color: #FF9B8A !important;
+  font-size: 1rem;
 }
 
 header nav ul:first-child li .subtitle {
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   font-weight: 400;
   color: #000 !important;
-  display: block;
-  line-height: 0.9;
-  margin-top: -0.2rem;
+  display: inline;
   font-style: italic;
 }
 
