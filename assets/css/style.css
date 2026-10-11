@@ -2,14 +2,14 @@
 
 :root {
   --color-base: #faf8f6 !important;
-  --color-sage: #a8c8b8 !important;
-  --color-lavender: #c8b8d8 !important;
-  --color-taupe: #d4c4b0 !important;
+  --color-primary: #FFDCD6 !important;
+  --color-primary-dark: #E8987E !important;
+  --color-secondary: #D4A8A0 !important;
   --color-divider: #e8e0d8 !important;
   --color-text: #2d3436 !important;
   --color-light-text: #5a5f5f !important;
-  --form-element-valid-border-color: #a8c8b8 !important;
-  --form-element-invalid-border-color: #d4c4b0 !important;
+  --form-element-valid-border-color: #FFDCD6 !important;
+  --form-element-invalid-border-color: #E8987E !important;
   --muted-color: #5a5f5f !important;
   --muted-border-color: #e8e0d8 !important;
 }
@@ -48,31 +48,31 @@ h2 { font-size: 1.8rem; }
 h3 { font-size: 1.4rem; }
 
 a {
-  color: #a8c8b8 !important;
+  color: #FFDCD6 !important;
   text-decoration: none;
-  border-bottom: 2px solid #a8c8b8 !important;
+  border-bottom: 2px solid #FFDCD6 !important;
 }
 
 a:hover {
-  color: #c8b8d8 !important;
-  border-bottom-color: #c8b8d8 !important;
+  color: #E8987E !important;
+  border-bottom-color: #E8987E !important;
 }
 
 button, [type="button"], [type="submit"], [type="reset"] {
-  background-color: #a8c8b8 !important;
-  border-color: #a8c8b8 !important;
+  background-color: #FFDCD6 !important;
+  border-color: #FFDCD6 !important;
   color: white !important;
 }
 
 button:hover, [type="button"]:hover, [type="submit"]:hover, [type="reset"]:hover {
-  background-color: #c8b8d8 !important;
-  border-color: #c8b8d8 !important;
+  background-color: #E8987E !important;
+  border-color: #E8987E !important;
 }
 
 /* Header Layout */
 header {
   background-color: #faf8f6 !important;
-  border-bottom: 2px solid #a8c8b8 !important;
+  border-bottom: 2px solid #FFDCD6 !important;
   padding: 1.5rem 0;
   margin-bottom: 3rem;
   position: sticky;
@@ -142,8 +142,8 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #a8c8b8 !important;
-  border-bottom-color: #a8c8b8 !important;
+  color: #FFDCD6 !important;
+  border-bottom-color: #FFDCD6 !important;
 }
 
 /* Logo */
@@ -181,14 +181,14 @@ main p {
 /* Project Card */
 .project-card {
   background: #fff9f7 !important;
-  border: 2px solid #c8b8d8 !important;
+  border: 2px solid #E8987E !important;
   border-radius: 4px;
   overflow: hidden;
   transition: all 0.2s ease;
 }
 
 .project-card:hover {
-  border-color: #a8c8b8 !important;
+  border-color: #FFDCD6 !important;
   box-shadow: 0 4px 12px rgba(168, 200, 184, 0.15);
 }
 
@@ -227,14 +227,14 @@ main p {
 .person-card {
   text-align: center;
   background: #fef5f2 !important;
-  border: 2px solid #a8c8b8 !important;
+  border: 2px solid #FFDCD6 !important;
   border-radius: 4px;
   padding: 1.5rem;
   transition: all 0.2s ease;
 }
 
 .person-card:hover {
-  border-color: #c8b8d8 !important;
+  border-color: #E8987E !important;
   box-shadow: 0 4px 12px rgba(200, 184, 216, 0.15);
 }
 
@@ -244,7 +244,7 @@ main p {
   border-radius: 50%;
   object-fit: cover;
   background-color: #e8e0d8;
-  border: 3px solid #a8c8b8;
+  border: 3px solid #FFDCD6;
   margin-bottom: 1rem;
 }
 
@@ -270,8 +270,8 @@ main p {
 
 .person-card a {
   font-size: 0.85rem;
-  color: #a8c8b8 !important;
-  border-bottom-color: #a8c8b8 !important;
+  color: #FFDCD6 !important;
+  border-bottom-color: #FFDCD6 !important;
 }
 
 /* News/Blog List */
@@ -281,7 +281,7 @@ main p {
   gap: 2rem;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 2px solid #c8b8d8;
+  border-bottom: 2px solid #E8987E;
 }
 
 .news-item:last-child {
@@ -294,7 +294,7 @@ main p {
   object-fit: cover;
   background-color: #e8e0d8;
   border-radius: 4px;
-  border: 2px solid #a8c8b8;
+  border: 2px solid #FFDCD6;
 }
 
 .news-item-content h3 {
@@ -319,7 +319,7 @@ main p {
 footer {
   margin-top: 4rem;
   padding-top: 2rem;
-  border-top: 2px solid #a8c8b8 !important;
+  border-top: 2px solid #FFDCD6 !important;
   font-size: 0.85rem;
   color: #000 !important;
   text-align: center;
@@ -333,13 +333,13 @@ footer p {
 }
 
 footer a {
-  border-bottom: 1px solid #a8c8b8 !important;
-  color: #a8c8b8 !important;
+  border-bottom: 1px solid #FFDCD6 !important;
+  color: #FFDCD6 !important;
 }
 
 footer a:hover {
-  color: #c8b8d8 !important;
-  border-bottom-color: #c8b8d8 !important;
+  color: #E8987E !important;
+  border-bottom-color: #E8987E !important;
 }
 
 /* Outreach Blocks */
@@ -371,7 +371,7 @@ footer a:hover {
 }
 
 .outreach-block-alternate {
-  background-color: #a8c8b8 !important;
+  background-color: #E8987E !important;
   color: white !important;
 }
 
