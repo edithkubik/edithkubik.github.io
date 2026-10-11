@@ -343,13 +343,13 @@ footer p {
 }
 
 footer a {
-  border-bottom: 1px solid #FFDCD6 !important;
-  color: #FFDCD6 !important;
+  border-bottom: 1px solid #FF9B8A !important;
+  color: #FF9B8A !important;
 }
 
 footer a:hover {
-  color: #FF9B8A !important;
-  border-bottom-color: #FF9B8A !important;
+  color: #FD5437 !important;
+  border-bottom-color: #FD5437 !important;
 }
 
 /* Outreach Blocks */
