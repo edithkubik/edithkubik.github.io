@@ -382,21 +382,21 @@ footer a:hover {
   order: 2 !important;
 }
 
-.outreach-block:nth-child(odd) {
-  background-color: #57A1A0 !important;
+.outreach-block:nth-child(even) {
+  background-color: #FD5437 !important;
   color: white !important;
 }
 
-.outreach-block:nth-child(odd) .outreach-image {
+.outreach-block:nth-child(even) .outreach-image {
   order: 1 !important;
 }
 
-.outreach-block:nth-child(odd) .outreach-text {
+.outreach-block:nth-child(even) .outreach-text {
   order: 2 !important;
 }
 
 .outreach-block-alternate {
-  background-color: #57A1A0 !important;
+  background-color: #FD5437 !important;
   color: white !important;
   grid-template-columns: 1fr 1fr !important;
 }
