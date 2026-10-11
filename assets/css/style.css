@@ -55,8 +55,8 @@ a {
 }
 
 a:hover {
-  color: #FD5437 !important;
-  border-bottom-color: #FD5437 !important;
+  color: #FF9B8A !important;
+  border-bottom-color: #FF9B8A !important;
 }
 
 button, [type="button"], [type="submit"], [type="reset"] {
@@ -198,7 +198,7 @@ main p {
 }
 
 .project-card:hover {
-  border-color: #FD5437 !important;
+  border-color: #FF9B8A !important;
   box-shadow: 0 4px 12px rgba(253, 84, 55, 0.2);
 }
 
@@ -348,8 +348,8 @@ footer a {
 }
 
 footer a:hover {
-  color: #FD5437 !important;
-  border-bottom-color: #FD5437 !important;
+  color: #FF9B8A !important;
+  border-bottom-color: #FF9B8A !important;
 }
 
 /* Outreach Blocks */
@@ -383,7 +383,13 @@ footer a:hover {
 }
 
 .outreach-block:nth-child(even) {
-  background-color: #FD5437 !important;
+  background-color: #FF9B8A !important;
+  color: white !important;
+}
+
+.outreach-block:nth-child(even) h3,
+.outreach-block:nth-child(even) p,
+.outreach-block:nth-child(even) li {
   color: white !important;
 }
 
@@ -396,7 +402,7 @@ footer a:hover {
 }
 
 .outreach-block-alternate {
-  background-color: #FD5437 !important;
+  background-color: #FF9B8A !important;
   color: white !important;
   grid-template-columns: 1fr 1fr !important;
 }
@@ -435,8 +441,8 @@ footer a:hover {
 }
 
 .outreach-block-alternate a:hover {
-  color: #FD5437 !important;
-  border-bottom-color: #FD5437 !important;
+  color: #FF9B8A !important;
+  border-bottom-color: #FF9B8A !important;
 }
 
 .outreach-image img {
