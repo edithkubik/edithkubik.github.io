@@ -1,5 +1,16 @@
-- title: Some Paper
-  authors: Doe J., Roe R.
-  year: 2025
-  venue: Journal X
-  link: https://doi.org/...
+2025:
+  - title: Paper Title One
+    authors: Kubik, E., Author, A.
+    venue: Journal Name
+    link: https://doi.org/...
+
+  - title: Paper Title Two
+    authors: Kubik, E., Author, B.
+    venue: Another Journal
+    link: https://doi.org/...
+
+2024:
+  - title: Earlier Paper
+    authors: Kubik, E., Collaborator, C.
+    venue: Science Journal
+    link: https://doi.org/...
