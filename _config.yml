@@ -1,3 +1,8 @@
-title: Philipp Scholz
+title: PEARL
+subtitle: Planetary Evolution & Accretion Research Laboratory
 baseurl: ""   # leave "" if the repo is <username>.github.io
 exclude: [README.md]
+
+logo: /assets/images/pearl-logo.png
+lab_email: edith.kubik@proton.me
+lab_affiliation: Department of Earth Sciences

@@ -1,0 +1,15 @@
+- name: Dr. Edith Kubik
+  role: Principal Investigator
+  image: /assets/images/edith.jpg
+  bio: Director of PEARL Lab, specializing in planetary materials and isotopic analysis.
+  email: edith.kubik@proton.me
+
+- name: Lab Member One
+  role: Postdoctoral Researcher
+  image: /assets/images/person-1.jpg
+  bio: Research focus on early solar system dynamics.
+
+- name: Lab Member Two
+  role: Graduate Student
+  image: /assets/images/person-2.jpg
+  bio: Investigating meteorite geochemistry and accretion processes.
