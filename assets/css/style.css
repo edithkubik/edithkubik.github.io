@@ -120,8 +120,8 @@ header nav ul:first-child li .subtitle {
   font-weight: 400;
   color: #000 !important;
   display: block;
-  line-height: 1;
-  margin-top: 0.1rem;
+  line-height: 0.9;
+  margin-top: -0.2rem;
   font-style: italic;
 }
 
@@ -320,7 +320,7 @@ main p {
 footer {
   margin-top: 4rem;
   padding-top: 2rem;
-  border-top: 2px solid #57A1A0 !important;
+  border-top: 2px solid #FF9B8A !important;
   font-size: 0.85rem;
   color: #000 !important;
   text-align: center;
@@ -374,36 +374,45 @@ footer a:hover {
 .outreach-block-alternate {
   background-color: #57A1A0 !important;
   color: white !important;
+  grid-template-columns: 1fr 1fr;
 }
 
 .outreach-block-alternate .outreach-image {
-  order: 1;
+  order: 1 !important;
 }
 
 .outreach-block-alternate .outreach-text {
-  order: 2;
+  order: 2 !important;
 }
 
-.outreach-block-alternate h3,
+.outreach-block-alternate h3 {
+  color: white !important;
+  margin-top: 0 !important;
+}
+
 .outreach-block-alternate h4,
 .outreach-block-alternate h5,
 .outreach-block-alternate h6 {
   color: white !important;
 }
 
-.outreach-block-alternate p,
+.outreach-block-alternate p {
+  color: white !important;
+  margin-bottom: 1rem !important;
+}
+
 .outreach-block-alternate li {
   color: white !important;
 }
 
 .outreach-block-alternate a {
-  color: white !important;
-  border-bottom-color: white !important;
+  color: #FFDCD6 !important;
+  border-bottom-color: #FFDCD6 !important;
 }
 
 .outreach-block-alternate a:hover {
-  color: #faf8f6 !important;
-  border-bottom-color: #faf8f6 !important;
+  color: #FD5437 !important;
+  border-bottom-color: #FD5437 !important;
 }
 
 .outreach-image img {
