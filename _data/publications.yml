@@ -53,13 +53,45 @@
     link: https://doi.org/10.1016/j.chemgeo.2023.121347
 
 2022:
-  - title: Earlier Paper
-    authors: Kubik, E., Collaborator, C.
-    venue: Science Journal
+  - title: Origin of moderately volatile element depletion on differentiated bodies: insights from the evaporation of indium from silicate melts
+    authors: D. Liu, F. Moynier, J. Siebert, P.A. Sossi, Y. Hu, E. Kubik
+    venue: Geochimica et Cosmochimica Acta
     link: https://doi.org/10.1016/j.gca.2022.09.043
     
-  - title: Earlier Paper
-    authors: Kubik, E., Collaborator, C.
-    venue: Science Journal
-    link: https://doi.org/...
+  - title: The absence of an effect of nickel on iron isotope fractionation during core formation
+    authors: E. Kubik, P.A. Sossi, J. Siebert, E. Inglis, M. Roskosz, E. Siciliano Rego, N. Wehr, F. Moynier
+    venue: Geochimica et Cosmochimica Acta
+    link: https://doi.org/10.1016/j.gca.2022.02.023
+
+  - title: Metal composition of carbonaceous chondrites
+    authors: E. van Kooten, E. Kubik, J. Siebert, B. Dominguez Heredia, T.B. Thomsen, F. Moynier
+    venue: Geochimica et Cosmochimica Acta
+    link: https://doi.org/10.1016/j.gca.2022.01.008
+
+2021:
+  - title: Potassium isotopic composition of seven widely available biological standards using collision cell (CC)-MC-ICPMS
+    authors: F. Moynier, Y. Hu, W. Dai, E. Kubik, B. Mahan, J. Moureau
+    venue: Journal of Analytical Atomic Spectrometry
+    link: https://doi.org/10.1039/D1JA00294E
+
+  - title: Iron isotopic composition of biological standards relevant to medical and biological applications
+    authors: E. Kubik, F. Moynier, M. Paquet, J. Siebert
+    venue: Frontiers in Medicine
+    link: https://doi.org/10.3389/fmed.2021.696367
+
+  - title: Tracing Earth's volatile delivery with tin
+    authors: E. Kubik, J. Siebert, B. Mahan, J. Creech, I. Blanchard, A. Agranier, S. Shcheka, F. Moynier
+    venue: Journal of Geophysical Research – Solid Earth
+    link: https://doi.org/10.1029/2021JB022026
+
+  - title: Earth's volatile accretion as told by Cd, Bi, Sb and Tl core–mantle distribution
+    authors: E. Kubik, J. Siebert, I. Blanchard, A. Agranier, B. Mahan, F. Moynier
+    venue: Geochimica et Cosmochimica Acta
+    link: https://doi.org/10.1016/j.gca.2021.02.017
+
+2018:
+  - title: Investigating Earth's formation history through copper and sulfur metal–silicate partitioning during core–mantle differentiation
+    authors: B. Mahan, J. Siebert, I. Blanchard, J. Badro, E. Kubik, P.A. Sossi, F. Moynier
+    venue: Journal of Geophysical Research – Solid Earth
+    link: https://doi.org/10.1029/2018JB015991
 
