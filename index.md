@@ -6,7 +6,7 @@ nav_order: 1
 
 ## Welcome to PEARL
 
-The Planetary Evolution & Accretion Research Laboratory investigates the fundamental processes that shape terrestrial planets, from the protoplanetary disk to differentiated planets.
+The Planetary Evolution & Accretion Research Laboratory investigates the fundamental processes that shape terrestrial planets, from small objects in the protoplanetary disk to fully-grown and differentiated planets.
 
 ### Current Projects
 
