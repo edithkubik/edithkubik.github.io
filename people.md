@@ -42,9 +42,8 @@ Edith received her Ph.D. in Geochemistry from the Institut de Physique du Globe 
 
 - **Email**: edith.kubik@ucd.ie
 - **Institutional webpage**: [link](https://people.ucd.ie/edith.kubik)
-- **Office Hours**: [Schedule]
 - **CV**: [Download PDF]
 
 ### Collaborations & Affiliations
 
-PEARL collaborates with researchers worldwide on projects investigating planetary materials, isotopic systems, and accretion dynamics.
+PEARL collaborates with researchers worldwide on projects investigating planetary formation and evolution using geochemical, isotopic and experimental tools.
