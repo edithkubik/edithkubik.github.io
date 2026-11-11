@@ -240,6 +240,12 @@ main p {
   height: 200px;
 }
 
+/* The picture frame spans the full card width; only the text is inset. */
+.project-card > .card-media {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .project-card h3 {
   margin-top: 1rem;
   color: #000 !important;
