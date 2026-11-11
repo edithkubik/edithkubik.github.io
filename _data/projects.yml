@@ -7,6 +7,7 @@
 - title: Research Ireland Pathway Fellowship
   description: Edith Kubik received a €675,000 four-year fellowship funded by Research Ireland allowing the group to continue their research at University College Dublin starting in 2025.
   image: /assets/images/REg.png
+  image_scale: 0.9
 
 - title: Measuring stable isotopes at UCD
   description: "The PEARL team currently develops a range of metal stable isotope techniques to investigage planetary formation and differentiation at the National Centre for Isotope Geochemistry. PEARL is the only lab in Ireland with the non-traditional stable isotope expertise. Image credit: NASA/JPL-Caltech"
