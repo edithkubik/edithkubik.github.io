@@ -41,7 +41,7 @@ Edith received her Ph.D. in Geochemistry from the Institut de Physique du Globe 
 ### Contact & Resources
 
 - **Email**: edith.kubik@ucd.ie
-- **Office**: [Building and Room Number]
+- **Institutional webpage**: [Building and Room Number]
 - **Office Hours**: [Schedule]
 - **CV**: [Download PDF]
 
