@@ -2,15 +2,21 @@
 
 :root {
   --color-base: #faf8f6 !important;
-  --color-peach-light: #FFDCD6 !important;
-  --color-peach-dark: #FF9B8A !important;
+  /* Accent palette. Each value is the old peach/coral shade moved to the
+     teal hue, keeping its lightness and color strength (OKLCH).
+     Change these to recolor the whole site. */
+  --color-accent: #38D2D1 !important;            /* was coral  #FF9B8A */
+  --color-accent-light: #C8EEED !important;      /* was peach  #FFDCD6 */
+  --color-accent-tint: #F0FAF9 !important;       /* was        #fef5f2 */
+  --color-accent-tint-soft: #F5FCFC !important;  /* was        #fff9f7 */
+  --color-accent-deep: #43AEAD !important;       /* was raspberry #D0837E */
+  --color-accent-muted: #73CBCA !important;      /* accent, ~30% less saturated: outreach blocks */
   --color-teal: #57A1A0 !important;
-  --color-raspberry: #D0837E !important;
   --color-divider: #e8e0d8 !important;
   --color-text: #2d3436 !important;
   --color-light-text: #5a5f5f !important;
   --form-element-valid-border-color: #57A1A0 !important;
-  --form-element-invalid-border-color: #FF9B8A !important;
+  --form-element-invalid-border-color: #FF9B8A !important; /* error red stays */
   --muted-color: #5a5f5f !important;
   --muted-border-color: #e8e0d8 !important;
 }
@@ -49,14 +55,14 @@ h2 { font-size: 1.8rem; }
 h3 { font-size: 1.4rem; }
 
 a {
-  color: #FF9B8A !important;
+  color: var(--color-accent) !important;
   text-decoration: none;
-  border-bottom: 2px solid #FF9B8A !important;
+  border-bottom: 2px solid var(--color-accent) !important;
 }
 
 a:hover {
-  color: #FF9B8A !important;
-  border-bottom-color: #FF9B8A !important;
+  color: var(--color-accent) !important;
+  border-bottom-color: var(--color-accent) !important;
 }
 
 button, [type="button"], [type="submit"], [type="reset"] {
@@ -66,14 +72,14 @@ button, [type="button"], [type="submit"], [type="reset"] {
 }
 
 button:hover, [type="button"]:hover, [type="submit"]:hover, [type="reset"]:hover {
-  background-color: #FF9B8A !important;
-  border-color: #FF9B8A !important;
+  background-color: var(--color-accent) !important;
+  border-color: var(--color-accent) !important;
 }
 
 /* Header Layout */
 header {
-  background-color: #faf8f6 !important;
-  border-bottom: 2px solid #FF9B8A !important;
+  background-color: var(--color-accent-tint) !important; /* same as people cards */
+  border-bottom: 2px solid var(--color-accent) !important;
   padding: 1.5rem 0;
   margin-bottom: 3rem;
   position: sticky;
@@ -122,7 +128,7 @@ header nav ul:first-child li strong {
 }
 
 header nav ul:first-child li .separator {
-  color: #FF9B8A !important;
+  color: var(--color-accent) !important;
   font-size: 1rem;
 }
 
@@ -152,8 +158,8 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #FFDCD6 !important;
-  border-bottom-color: #FFDCD6 !important;
+  color: var(--color-accent-light) !important;
+  border-bottom-color: var(--color-accent-light) !important;
 }
 
 /* Logo */
@@ -185,21 +191,30 @@ main p {
 }
 
 .grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-.grid-3 { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+/* People cards: fixed 350px so every card has the same width. The grid may
+   extend past the text column (centered) so three fit per row on screens
+   ~1180px and wider; narrower screens get two per row. */
+.grid-3 {
+  grid-template-columns: repeat(auto-fill, 350px);
+  justify-content: center;
+  width: min(calc(3 * 350px + 2 * 2rem), calc(100vw - 4rem));
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 .grid-4 { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
 
 /* Project Card */
 .project-card {
-  background: #fff9f7 !important;
-  border: 2px solid #FFDCD6 !important;
+  background: var(--color-accent-tint-soft) !important;
+  border: 2px solid var(--color-accent-light) !important;
   border-radius: 4px;
   overflow: hidden;
   transition: all 0.2s ease;
 }
 
 .project-card:hover {
-  border-color: #FF9B8A !important;
-  box-shadow: 0 4px 12px rgba(253, 84, 55, 0.2);
+  border-color: var(--color-accent) !important;
+  box-shadow: 0 4px 12px rgba(2, 172, 172, 0.2);
 }
 
 .project-card img {
@@ -236,15 +251,15 @@ main p {
 /* People Cards */
 .person-card {
   text-align: center;
-  background: #fef5f2 !important;
-  border: 2px solid #FFDCD6 !important;
+  background: var(--color-accent-tint) !important;
+  border: 2px solid var(--color-accent-light) !important;
   border-radius: 4px;
-  padding: 1.5rem;
+  padding: 1.25rem;
   transition: all 0.2s ease;
 }
 
 .person-card:hover {
-  border-color: #FF9B8A !important;
+  border-color: var(--color-accent) !important;
   box-shadow: 0 4px 12px rgba(200, 184, 216, 0.15);
 }
 
@@ -254,11 +269,12 @@ main p {
   border-radius: 50%;
   object-fit: cover;
   background-color: #e8e0d8;
-  border: 3px solid #FFDCD6;
+  border: 3px solid var(--color-accent-light);
   margin-bottom: 1rem;
 }
 
 .person-card h3 {
+  font-size: 1.1rem; /* fits long names on one line in a 350px card */
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: #000 !important;
@@ -280,8 +296,8 @@ main p {
 
 .person-card a {
   font-size: 0.85rem;
-  color: #FFDCD6 !important;
-  border-bottom-color: #FFDCD6 !important;
+  color: var(--color-accent-light) !important;
+  border-bottom-color: var(--color-accent-light) !important;
 }
 
 /* News/Blog List */
@@ -291,7 +307,7 @@ main p {
   gap: 2rem;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 2px solid #FF9B8A;
+  border-bottom: 2px solid var(--color-accent);
 }
 
 .news-item:last-child {
@@ -304,7 +320,7 @@ main p {
   object-fit: cover;
   background-color: #e8e0d8;
   border-radius: 4px;
-  border: 2px solid #FFDCD6;
+  border: 2px solid var(--color-accent-light);
 }
 
 .news-item-content h3 {
@@ -329,7 +345,7 @@ main p {
 footer {
   margin-top: 4rem;
   padding-top: 2rem;
-  border-top: 2px solid #FF9B8A !important;
+  border-top: 2px solid var(--color-accent) !important;
   font-size: 0.85rem;
   color: #000 !important;
   text-align: center;
@@ -343,13 +359,13 @@ footer p {
 }
 
 footer a {
-  border-bottom: 1px solid #FF9B8A !important;
-  color: #FF9B8A !important;
+  border-bottom: 1px solid var(--color-accent) !important;
+  color: var(--color-accent) !important;
 }
 
 footer a:hover {
-  color: #FF9B8A !important;
-  border-bottom-color: #FF9B8A !important;
+  color: var(--color-accent) !important;
+  border-bottom-color: var(--color-accent) !important;
 }
 
 /* Outreach Blocks */
@@ -383,7 +399,7 @@ footer a:hover {
 }
 
 .outreach-block:nth-child(even) {
-  background-color: #FF9B8A !important;
+  background-color: var(--color-accent-muted) !important;
   color: white !important;
 }
 
@@ -402,7 +418,7 @@ footer a:hover {
 }
 
 .outreach-block-alternate {
-  background-color: #FF9B8A !important;
+  background-color: var(--color-accent-muted) !important;
   color: white !important;
   grid-template-columns: 1fr 1fr !important;
 }
@@ -436,13 +452,13 @@ footer a:hover {
 }
 
 .outreach-block-alternate a {
-  color: #FFDCD6 !important;
-  border-bottom-color: #FFDCD6 !important;
+  color: var(--color-accent-light) !important;
+  border-bottom-color: var(--color-accent-light) !important;
 }
 
 .outreach-block-alternate a:hover {
-  color: #FF9B8A !important;
-  border-bottom-color: #FF9B8A !important;
+  color: var(--color-accent) !important;
+  border-bottom-color: var(--color-accent) !important;
 }
 
 .outreach-image img {
@@ -472,6 +488,12 @@ footer a:hover {
 
   .news-item {
     grid-template-columns: 1fr;
+  }
+
+  .grid-3 {
+    width: auto;
+    margin-left: 0;
+    transform: none;
   }
 
   .grid-2, .grid-3, .grid-4 {
