@@ -6,5 +6,5 @@ baseurl: ""   # leave "" if the repo is <username>.github.io
 exclude: [README.md, Gemfile, Gemfile.lock, vendor, .claude]
 
 logo: /assets/images/placeholder_geode.jpeg
-lab_email: edith.kubik@proton.me
-lab_affiliation: Department of Earth Sciences
+lab_email: edith.kubik@ucd.ie
+lab_affiliation: UCD School of Earth Sciences
