@@ -18,7 +18,7 @@ nav_order: 6
 </div>
 {% if block.image %}
 <div class="outreach-image">
-<img src="{{ block.image }}" alt="{{ block.title }}">
+{% include card-image.html src=block.image alt=block.title fit=block.image_fit focus=block.image_focus scale=block.image_scale %}
 </div>
 {% endif %}
 </div>
@@ -26,7 +26,7 @@ nav_order: 6
 <div class="outreach-block outreach-block-alternate">
 {% if block.image %}
 <div class="outreach-image">
-<img src="{{ block.image }}" alt="{{ block.title }}">
+{% include card-image.html src=block.image alt=block.title fit=block.image_fit focus=block.image_focus scale=block.image_scale %}
 </div>
 {% endif %}
 <div class="outreach-text">

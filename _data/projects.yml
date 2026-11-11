@@ -1,3 +1,9 @@
+# Picture options (optional, add under `image:`; full guide in README.md):
+#   image_fit: cover      fill the frame and crop the edges (default: contain = whole picture)
+#   image_focus: top      part to keep when cropping: top, bottom, left, right, center
+#   image_scale: 0.8      shrink the picture to 80% of its frame, leaving a border
+# Tip: put quotes around any text that contains a colon (:), or the site won't build.
+
 - title: Research Ireland Pathway Fellowship
   description: Edith Kubik received a €675,000 four-year fellowship funded by Research Ireland allowing the group to continue their research at University College Dublin starting in 2025.
   image: /assets/images/REg.png

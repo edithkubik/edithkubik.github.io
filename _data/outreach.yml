@@ -1,3 +1,9 @@
+# Picture options (optional, add under `image:`; full guide in README.md):
+#   image_fit: cover      fill the frame and crop the edges (default: contain = whole picture)
+#   image_focus: top      part to keep when cropping: top, bottom, left, right, center
+#   image_scale: 0.8      shrink the picture to 80% of its frame, leaving a border
+# Tip: put quotes around any text that contains a colon (:), or the site won't build.
+
 intro: PEARL Lab is committed to sharing the excitement of planetary science with students and the general public. Through diverse outreach initiatives, we work to inspire curiosity about planetary processes and make science accessible to all.
 
 blocks:

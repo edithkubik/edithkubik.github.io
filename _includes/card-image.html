@@ -1,0 +1,23 @@
+{%- comment -%}
+  Picture inside a fixed frame, used on Home (projects), News and Outreach.
+
+  Optional settings, written next to `image:` in _data/projects.yml,
+  _data/outreach.yml, or at the top of a news post:
+
+    image_fit:   contain  (default) whole picture visible, may leave empty space
+                 cover    fills the frame, crops the edges
+    image_focus: which part to keep when cropping with `cover`:
+                 center (default), top, bottom, left, right, "top left", ...
+    image_scale: size of the picture inside its frame, leaving a border:
+                 1 (default) = full size, 0.8 = 80%, 0.6 = 60%
+                 (writing 80% also works)
+
+  Unknown values fall back to the defaults, so a typo never breaks the page.
+{%- endcomment -%}
+{%- assign fit = include.fit | default: "contain" | downcase | strip -%}
+{%- unless fit == "cover" -%}{%- assign fit = "contain" -%}{%- endunless -%}
+{%- assign focus = include.focus | default: "center" | downcase | strip | escape -%}
+{%- assign scale = include.scale | default: 1 | times: 1.0 -%}
+{%- if scale > 2 -%}{%- assign scale = scale | divided_by: 100.0 -%}{%- endif -%}
+{%- if scale <= 0 or scale > 2 -%}{%- assign scale = 1 -%}{%- endif -%}
+<div class="card-media"><img src="{{ include.src }}" alt="{{ include.alt | escape }}" style="--img-fit: {{ fit }}; --img-focus: {{ focus }}; --img-scale: {{ scale }};"></div>

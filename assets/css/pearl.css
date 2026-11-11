@@ -217,11 +217,27 @@ main p {
   box-shadow: 0 4px 12px rgba(2, 172, 172, 0.2);
 }
 
-.project-card img {
-  width: 100%;
+/* Card pictures (Home, News, Outreach). Per-picture image_fit / image_focus /
+   image_scale settings arrive as CSS variables; see _includes/card-image.html.
+   The frame keeps its size; the picture is fitted and scaled inside it. */
+.card-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-media img {
+  display: block;
+  width: calc(100% * var(--img-scale, 1));
+  height: calc(100% * var(--img-scale, 1));
+  object-fit: var(--img-fit, contain);
+  object-position: var(--img-focus, center);
+  background-color: transparent; /* empty space blends into the card */
+}
+
+.project-card .card-media {
   height: 200px;
-  object-fit: contain; /* show the whole picture, never crop */
-  background-color: transparent; /* letterbox blends into the card */
 }
 
 .project-card h3 {
@@ -314,11 +330,8 @@ main p {
   border-bottom: none;
 }
 
-.news-item img {
-  width: 100%;
+.news-item .card-media {
   height: 180px;
-  object-fit: contain; /* show the whole picture, never crop */
-  background-color: transparent; /* letterbox blends into the card */
   border-radius: 4px;
   border: 2px solid var(--color-accent-light);
 }
@@ -461,11 +474,10 @@ footer a:hover {
   border-bottom-color: var(--color-accent) !important;
 }
 
+/* Outreach frames have no fixed height: the picture keeps its natural shape,
+   so only image_scale has a visible effect here. */
 .outreach-image img {
-  width: 100%;
   border-radius: 4px;
-  display: block;
-  background-color: #e8e0d8;
 }
 
 .outreach-block-alternate .outreach-image img {
